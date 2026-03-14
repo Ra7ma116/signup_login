@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Login </title>
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="assets/CSS/bootstrap.min.css">
+    <!-- Manual CSS -->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body class="bg-light">
+
+<div class="container d-flex align-items-center justify-content-center vh-100">
+    <div class="row w-100 align-items-center">
+        
+        <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0 pe-lg-5">
+            <h1 class="display-1 fw-bold text-primary mb-0" style="letter-spacing: -2px;">Facebook</h1>
+            <p class="fs-3 text-secondary fw-normal lh-sm">Connect with friends and the world around you on Facebook.</p>
+        </div>
+
+        <div class="col-lg-6 col-xl-5">
+            <div class="card border-0 shadow-lg p-3 rounded-3 ">
+                <div class="card-body">
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label id="emailLabel" class="form-label fw-bold text-primary">Email address or phone number</label>
+                            <input type="text" id="emailInp" class="form-control form-control-lg fs-6" placeholder="Email address or phone number">
+                        </div>
+                        <div class="mb-3">
+                            <label id="passLabel" class="form-label fw-bold text-primary">Password</label>
+                            <input type="password" id="passInp" class="form-control form-control-lg fs-6" placeholder="Password">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="show">
+                            <label class="form-check-label text-primary fw-bold fs-6" for="show">Show Password</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100 fw-bold py-2 fs-5">Log In</button>
+                        
+                        <div class="text-center mt-5 ">
+                            <a href="#" class="text-decoration-none fs-5">Forget Password?</a>
+                        </div>
+                        
+                        <hr class="text-secondary">
+                        
+                        <div class="text-center pt-2">
+                            <a href="signUp.html" class="btn btn-success btn-lg w-100 fw-bold py-2 fs-5">Create New Account</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <p class="small text-secondary"><a href="#" class="text-primary fw-bold text-decoration-none ">Create a Page</a> for a celebrity, brand or business.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<footer>
+    <div class="container d-flex flex-wrap justify-content-center justify-content-lg-start py-3 border-top">
+        <div class="col-md-3 mb-3">
+            <span class="text-secondary">&copy; 2024 Facebook, Inc.</span>
+        </div>
+
+        <ul class="nav col-md-6 mb-3 justify-content-center">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary">Privacy</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary">Terms</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary">Advertising</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary">Ad Choices</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary">Cookies</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary">More</a></li>
+        </ul>
+
+        <div class="col-md-3 mb-3 d-flex justify-content-center justify-content-lg-end">
+            <select class="form-select form-select-sm w-auto" aria-label=".form-select-sm example">
+                <option selected>English (US)</option>
+                <option value="1">Arabic</option>
+                <option value="2">French</option>
+                <option value="3">Spanish</option>
+                <option value="4">Chinese</option>
+                <option value="5">Russian</option>
+            </select>
+        </div>
+    </div>
+</footer>
+<script src="assets/JS/bootstrap.bundle.min.js"></script>
+<script src="assets/JS/login.js"></script>
+</body>
+</html>
